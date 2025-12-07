@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Images in HTML</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1><u>Images in HTML</u></h1>
+    <p>
+      You can add an image in HTML using the image element, which tells the
+      browser to load and display a picture on the webpage. The most important
+      part of an image element is the source attribute, which gives the location
+      of the image file so the browser knows where to find it. Another essential
+      attribute is the alt text, which provides a written description of the
+      image for situations where the picture cannot load or when a screen reader
+      is being used. Images also have optional attributes like width and height
+      to control their size, a title attribute to show a small tooltip when the
+      user hovers over the image, and a loading attribute that helps improve
+      performance by delaying the loading of images until they are needed. You
+      can also assign classes or an id to an image to style it with CSS.
+      Overall, these properties and attributes help you control how the image
+      appears, behaves, and supports accessibility on a webpage.
+    </p>
+    <img
+      width="300"
+      title="Web Development"
+      src="https://plus.unsplash.com/premium_photo-1678565869434-c81195861939?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2ViJTIwZGV2ZWxvcGVyfGVufDB8fDB8fHww"
+      alt="Laptop with VS Code"
+    />
+    <p>
+      The (img) tag is used for addition of Images, it is empty void tag, here
+      the source url or path can be added with a alt text. The properties like
+      height and width can also be changed easily.
+    </p>
+    <h1><u>Tables in HTML</u></h1>
+    <p>
+      Tables in HTML are used to display data in a structured format using rows and columns, making information easy to read and compare. A table is created by defining it first, then adding rows, and inside those rows placing cells that hold the actual data, while header cells are used to label each column.
+    </p>
+    <table border="1" cellpadding="8" cellspacing="0">
+      <caption>
+        Developers
+      </caption>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Designation</th>
+      </tr>
+      <tr>
+        <td>Prince</td>
+        <td>18</td>
+        <td>Web Developer</td>
+      </tr>
+      <tr>
+        <td>Priyanshu</td>
+        <td>18</td>
+        <td>Java Developer</td>
+      </tr>
+    </table>
+    <p></p>
+    <table border="1" cellpadding="8" cellspacing="0">
+      <caption>
+        Marks Table
+      </caption>
+
+      <tr>
+        <th>Subject</th>
+        <th>Marks</th>
+      </tr>
+
+      <tr>
+        <td>Math</td>
+        <td>95</td>
+      </tr>
+
+      <tr>
+        <td>Science</td>
+        <td>89</td>
+      </tr>
+    </table>
+    <p>You can also add a caption at the top to describe what the table represents, and apply basic attributes like borders, padding, spacing, width, and alignment to control how the table looks, although modern styling is usually done through CSS. More advanced table structure includes using thead, tbody, and tfoot to divide the table into separate sections, where thead holds the heading row, tbody holds the main data, and tfoot contains totals or summary information. These sections do not change the appearance by themselves, but they help with organization, styling, accessibility, and performance, as browsers can understand and process the table layout more efficiently. Together, these elements and properties allow you to create clean, well-structured tables that present information clearly on a webpage.</p>
+    <h1><u>Lists in HTML</u></h1>
+    <p>Lists in HTML are used to organize content into clear, readable points, making information easier to scan and understand. There are two main types: ordered lists, which automatically number each item, and unordered lists, which use bullets instead. Both types are built using list item elements placed inside the list container. HTML also supports description lists, which are used to show terms and their definitions.</p>
+    <p><b>Unordered List:</b> Here Types like square or cirles can also be used.
+      <ul type="square">
+        <li>Prince</li>
+        <li>Priyanshu</li>
+        <li>Hiten</li>
+      </ul>
+    </p>
+    <p><b>Ordered List</b>: Here Types like i, I, 1, A, a can also be used. 
+      <ol type="I">
+        <li>C Language</li>
+        <li>Java</li>
+        <li>Javascript</li>
+        <li>C++</li>
+        <li>Python</li>
+      </ol>
+    </p>
+    <p>
+      <b>Description List: </b>Used for Definitions Listing in HTML.
+      <dl>
+        <dt><b>HTML</b></dt>
+        <dd>HyperText Markup Language: The standard language for creating web pages.</dd>
+        <dt><b>CSS</b></dt>
+        <dd>Cascading Style Sheets: A stylesheet language used for describing the look and formatting of a document written in HTML.</dd>
+        <dt><b>Javascript</b></dt>
+        <dd>A programming language commonly used in web development to add interactive features.</dd>
+      </dl>
+    </p>
+    <p>Prince</p>
+    <script src="script.js"></script>
+  </body>
+</html>
