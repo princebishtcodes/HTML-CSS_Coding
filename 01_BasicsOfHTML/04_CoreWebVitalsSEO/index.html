@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This Webpage contains information about SEO, Core Web Vitals and LightHouse Report...>
+    <title>Core Web Vitals and SEO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><u>Core Web Vitals and SEO</u></h1>
+    <h2>What is SEO ?</h2>
+    <p>Search Engine Optimization(SEO), is the process of improving a website so that it ranks higher in search engine results and becomes easier for people to find. It involves understanding how search engines like Google analyze webpages and then optimizing the site’s content, structure, keywords, and performance to match those requirements.</p>
+    <p><img width = "350" src="https://digitallinkspro.qa/wp-content/webp-express/webp-images/uploads/2023/04/seo.jpg.webp" alt="SEO Image"></p>
+    <p>Good SEO focuses on providing clear, useful information, using proper headings and meta tags, improving page speed, ensuring mobile friendliness, and building trustworthy links from other websites. The goal of SEO is to increase visibility, attract more organic visitors, and create a better user experience, all of which help a website grow and reach the right audience.</p>
+    <h2>Core Web Vitals</h2>
+    <p>Core Web Vitals are a set of performance metrics created by Google to measure how fast, stable, and responsive a webpage feels to real users. They directly depend on how well your HTML, CSS, and JavaScript are written.</p>
+    <p>These metrics focus on three main things: 1.how quickly the main content appears, 2.how responsive the page is when the user interacts, 3.and how stable the layout is while loading.</p>
+    <h3>Cumulative Layout Shift</h3>
+    <p>CLS is a measure of the largest burst of layout shift scores for every unexpected layout shift that occurs during the entire lifecycle of a page.</p>
+    <p>It basically tracks unwanted movement of elements while the page is loading.</p>
+    <p><img width = "300" src="https://web.dev/static/articles/cls/image/good-cls-values.svg" alt="CLS Image"></p>
+    <p>To provide a good user experience, sites should strive to have a CLS score of 0.1 or less. To ensure you're hitting this target for most of your users, a good threshold to measure is the 75th percentile of page loads, segmented across mobile and desktop devices.</p>
+    <h3>Large Contentful Play</h3>
+    <p>LCP reports the render time of the largest image, text block, or video visible in the viewport, relative to when the user first navigated to the page.</p>
+    <p>It basically checks how fast the biggest element (like a large image or heading) loads.</p>
+    <p><img width = "300" src="https://web.dev/static/articles/lcp/image/good-lcp-values.svg" alt="LCP Image"></p>
+    <p>To provide a good user experience, sites should strive to have Largest Contentful Paint of 2.5 seconds or less. To ensure you're hitting this target for most of your users, a good threshold to measure is the 75th percentile of page loads, segmented across mobile and desktop devices.</p>
+    <h3>First Input Delay</h3>
+    <p>FID measures the time from when a user first interacts with a page (that is, when they click a link, tap on a button, or use a custom, JavaScript-powered control) to the time when the browser is actually able to begin processing event handlers in response to that interaction.</p>
+    <p>It basically measures how quickly the page reacts to the first user action.</p>
+    <p><img width = "300" src="https://web.dev/static/articles/fid/image/good-fid-values-25.svg" alt="FID Image"></p>
+    <p>To provide a good user experience, sites should strive to have a First Input Delay of 100 milliseconds or less. To ensure you're hitting this target for most of your users, a good threshold to measure is the 75th percentile of page loads, segmented across mobile and desktop devices.</p>
+    <h3>LightHouse Report</h3>
+    <p>A Lighthouse report is a performance audit provided by Google that evaluates how well a webpage is built in terms of speed, accessibility, SEO, and overall user experience. It checks things like how quickly content loads, whether the layout shifts, how accessible the page is for users with disabilities, and whether best practices are being followed.</p>
+    <p>Lighthouse is important because it highlights issues that slow down a website or hurt its search ranking, and it gives clear suggestions to improve performance and user satisfaction.</p>
+    <p>You can easily run a Lighthouse report using the Chrome browser by opening Developer Tools, selecting the “Lighthouse” or “Performance” tab, choosing the type of audit you want, and clicking “Analyze.” It generates a detailed score and recommendations, helping developers optimize their website for speed, quality, and better search visibility.</p>
+    <h3>Conclusion</h3>
+    <p>These metrics focus on three main things: how quickly the main content appears, how responsive the page is when the user interacts, and how stable the layout is while loading. The three key measurements are Largest Contentful Paint, which checks how fast the biggest element (like a large image or heading) loads; First Input Delay, which measures how quickly the page reacts to the first user action; and Cumulative Layout Shift, which tracks unwanted movement of elements while the page is loading. Together, these metrics help developers improve user experience by making sure pages load quickly, feel smooth, and don’t shift around unexpectedly. Search engines like Google use Core Web Vitals as ranking factors, so optimizing your website for them improves both performance and visibility.</p>
+    <script src="script.js"></script>
+</body>
+</html>
