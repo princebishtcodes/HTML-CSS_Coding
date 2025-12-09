@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This Webpage is to understand the forms and input tags in HTML and how to use them...">
+    <title>Forms and Input Tags in HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><u>Forms and Input Tags in HTML</u></h1>
+    <form action="/submit" method="post">
+        <div>
+            <label for="username">Enter Username : </label>
+            <input type="text" id="username" name="username" required autofocus>
+        </div>
+        <div>
+            <label for="password">Enter Password : </label>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <div>
+            <label for="name">Enter Name : </label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="age">Enter Age : </label>
+            <input type="number" name="age" id="age">
+        </div>
+        <div>
+            <label for="gender">Gender : </label>
+            <input type="radio" id="male" name="gender" value = "male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="subscribe">Subscribe to Newsletter : </label>
+            <input type="checkbox" name="subscribe" id="subscribe" value = "yes">
+        </div>
+        <div>
+            <label for="date">Enter Date : </label>
+            <input type="date" name="date" id="date">
+        </div>
+        <div>
+            <textarea name="comment" id="comment" cols="50" rows="4">Enter your Comments...</textarea>
+        </div>
+        <div>
+            <label for="lang">What is Best Language? : </label>
+            <select name="land" id="lang">
+                <option value="Java">Java</option>
+                <option value="C">C Language</option>
+                <option value="Python">Python</option>
+            </select>
+        </div>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
