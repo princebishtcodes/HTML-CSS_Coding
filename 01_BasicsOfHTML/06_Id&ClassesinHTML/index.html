@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This Webpage focuses on Id and Classes in HTML...">
+    <title>Id and Classes in HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><u>Id and Classes in HTML</u></h1>
+    <h2>Id</h2>
+    <div id="intro" class="firstdiv">
+    <p>The id attribute in HTML is used to give a unique identity to an element so it can be targeted easily for styling, scripting, or linking within the page. Since an id must be unique, it helps developers identify a specific element when they want to apply special CSS styles or interact with it through JavaScript, such as accessing a particular input field or changing the content of a specific section.</p>
+    </div>
+    <span id = "main" class="firstdiv">
+        <p>
+            The id attribute is also important for connecting labels to form inputs, improving accessibility by allowing screen readers to understand which label belongs to which field. Additionally, ids can be used to create internal links that jump to specific sections of a webpage. Overall, the id attribute plays an important role in precise element targeting, user interaction, and organized website structure.
+            In CSS, the id is accessed using the #.
+        </p>
+    </span>
+    <h2>Class</h2>
+    <div id="seconddiv" class="span1">
+        <p>
+            The class attribute in HTML is used to group multiple elements under the same name so they can share common styles or behaviors. Unlike an id, which must be unique, a class can be applied to any number of elements, making it ideal for styling repeated patterns such as buttons, cards, headings, or form fields.
+        </p>
+    </div>
+    <span id = "2ndSpan" class="span1"><p>
+        Classes allow CSS to apply the same design to many elements at once, keeping the code cleaner and more efficient. They are also useful in JavaScript, where you can select groups of elements to add interactivity or animations. The class attribute helps maintain consistency across a webpage and makes both styling and scripting more flexible and organized.
+        In CSS, class is accessed using .(dot).
+    </p></span>
+    <script src="script.js"></script>
+</body>
+</html>
