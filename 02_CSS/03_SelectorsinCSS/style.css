@@ -1,0 +1,13 @@
+/* Element Selector */
+
+div{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #212121;
+    color: antiquewhite;
+}
+
+/* Class Selector */
+.id1{
+    background-color: aliceblue;
+    color: black;
+}
