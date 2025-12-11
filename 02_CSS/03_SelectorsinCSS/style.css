@@ -1,3 +1,6 @@
+header{
+    display: list-item;
+}
 /* Element Selector */
 
 div{
@@ -10,4 +13,25 @@ div{
 .id1{
     background-color: aliceblue;
     color: black;
+}
+
+/* Id Selector */
+#firstspan{
+    background-color: aqua;
+    color: rgb(43, 7, 78);
+}
+
+/* Child Selector */
+div > p{
+    color : rgb(63, 4, 4);
+}
+
+/* Descendent Selector */
+body p{
+    background-color: pink;
+}
+
+/* Pseudo Selector */
+a:visited{
+    background-color: rgb(216, 216, 18);
 }
