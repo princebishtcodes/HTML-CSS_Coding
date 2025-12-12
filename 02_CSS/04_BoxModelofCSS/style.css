@@ -1,0 +1,29 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    background-color: blanchedalmond;
+}
+
+.box1{
+    padding: 10px;
+    margin: 40px;
+    border: 2px solid black;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.box2{
+    color:darkblue;
+    padding: 10px;
+    margin: 25px;
+    border: 2px solid black;
+    height: 200px;
+    box-sizing: border-box;
+    /* It tells the css to only add the height given and reduces others width. */
+}
+
+/* Here the Concept of Margin Collapse comes which is that instead of giving both the margins, the greater margin only will be applied, in this case 40px. */
