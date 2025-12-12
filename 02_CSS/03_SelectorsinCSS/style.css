@@ -35,3 +35,8 @@ body p{
 a:visited{
     background-color: rgb(216, 216, 18);
 }
+
+/* Universal Selector */
+*{
+    background-color: #F1E8E4;
+}
